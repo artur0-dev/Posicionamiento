@@ -25,21 +25,21 @@
   }
   .content{
     position: static;
-    margin-top: 60px;
-    margin-bottom: 1%;
+    margin-top: 4%;
+    margin-bottom: 2%;
     border-top: 2px dotted;
     border-bottom: 2px dotted;
     padding: 1%;
   }
   .sidebar{
-    position: fixed;
+    position: relative;
     border: 2px dotted;
-    margin-right: 1%;
-    padding: 1%;
-    right: 0;
+    padding: 2%;
+    width: 10%;
+    right: -89%;
   }
   .features{
-    position: fixed;
+    position: relative;
     top: 45%;
     width: 100%;
     text-align: center;
@@ -47,11 +47,12 @@
     border-bottom: 2px dotted;
     padding: 1%;
     margin-bottom: 7%;
+    margin-top: 2%;
   }
   footer{
-    position: fixed;
+    position: absolute;
     width: 100%;
-    bottom: 0;
+    bottom: -8%;
     border-top: 2px dotted;
     text-align: center;
     border-bottom: 2px dotted;
