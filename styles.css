@@ -35,10 +35,10 @@
   .sidebar{
     position: relative;
     border: 2px dotted;
-    padding: 2%;
-    width: 10%;
-    height: 11vw;
-    right: -89%;
+    padding: 1%;
+    width: 200px;
+    height: 200px;
+    right: -87%;
   }
   .features{
     position: relative;
@@ -66,3 +66,32 @@
     padding: 4px 9px;
     border-radius: 7px;
   }
+
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 50%;  
+      padding: 1%; 
+      right: -70%;    
+    }
+}
+@media (max-width: 600px) {
+  .sidebar {
+    width: 20%;  
+    padding: 1%; 
+    right: -77%;    
+  }
+}
+@media (max-width: 480px) {
+    .sidebar {
+        width: 30%;  
+        padding: 2%; 
+        right: -60%;
+    }
+}
+@media (max-width: 320px) {
+  .sidebar {
+    width: 25%;  
+    padding: 2%; 
+    right: -60%;  
+  }
+}
